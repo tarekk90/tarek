@@ -20,7 +20,6 @@ class Program
         Console.Write("Введите возраст: ");
         int age = Convert.ToInt32(Console.ReadLine());
 
-        // Задание 4: Добавляем характеристики
         Console.Write("Введите силу: ");
         int strength = Convert.ToInt32(Console.ReadLine());
 
@@ -29,6 +28,12 @@ class Program
 
         Console.Write("Введите интеллект: ");
         int intellect = Convert.ToInt32(Console.ReadLine());
+
+        // Задание 5: Расчеты
+        int sum = strength + agility + intellect;
+        int health = 100 + strength * 10;
+        int attack = strength * 2 + agility;
+        int mana = 50 + intellect * 5;
 
         // Вывод информации о персонаже
         Console.WriteLine("----------------------------------------");
@@ -41,5 +46,10 @@ class Program
         Console.WriteLine("Сила: " + strength);
         Console.WriteLine("Ловкость: " + agility);
         Console.WriteLine("Интеллект: " + intellect);
+        Console.WriteLine("----------------------------------------");
+        Console.WriteLine("Сумма характеристик: " + sum);
+        Console.WriteLine("Здоровье: " + health);
+        Console.WriteLine("Атака: " + attack);
+        Console.WriteLine("Мана: " + mana);
     }
 }
