@@ -1,0 +1,15 @@
+/workspaces/tarek/MyFirstSApp/bin/Debug/net10.0/MyFirstSApp
+/workspaces/tarek/MyFirstSApp/bin/Debug/net10.0/MyFirstSApp.deps.json
+/workspaces/tarek/MyFirstSApp/bin/Debug/net10.0/MyFirstSApp.runtimeconfig.json
+/workspaces/tarek/MyFirstSApp/bin/Debug/net10.0/MyFirstSApp.dll
+/workspaces/tarek/MyFirstSApp/bin/Debug/net10.0/MyFirstSApp.pdb
+/workspaces/tarek/MyFirstSApp/obj/Debug/net10.0/MyFirstSApp.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/tarek/MyFirstSApp/obj/Debug/net10.0/MyFirstSApp.AssemblyInfoInputs.cache
+/workspaces/tarek/MyFirstSApp/obj/Debug/net10.0/MyFirstSApp.AssemblyInfo.cs
+/workspaces/tarek/MyFirstSApp/obj/Debug/net10.0/MyFirstSApp.csproj.CoreCompileInputs.cache
+/workspaces/tarek/MyFirstSApp/obj/Debug/net10.0/MyFirstSApp.sourcelink.json
+/workspaces/tarek/MyFirstSApp/obj/Debug/net10.0/MyFirstSApp.dll
+/workspaces/tarek/MyFirstSApp/obj/Debug/net10.0/refint/MyFirstSApp.dll
+/workspaces/tarek/MyFirstSApp/obj/Debug/net10.0/MyFirstSApp.pdb
+/workspaces/tarek/MyFirstSApp/obj/Debug/net10.0/MyFirstSApp.genruntimeconfig.cache
+/workspaces/tarek/MyFirstSApp/obj/Debug/net10.0/ref/MyFirstSApp.dll
