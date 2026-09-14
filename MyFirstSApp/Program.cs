@@ -35,6 +35,9 @@ class Program
         int attack = strength * 2 + agility;
         int mana = 50 + intellect * 5;
 
+        // Задание 7: Дополнительная характеристика
+        int combatRating = strength * 2 + agility * 2 + intellect;
+
         // Вывод информации о персонаже
         Console.WriteLine("----------------------------------------");
         Console.WriteLine("          СОЗДАННЫЙ ПЕРСОНАЖ            ");
@@ -51,5 +54,6 @@ class Program
         Console.WriteLine("Здоровье: " + health);
         Console.WriteLine("Атака: " + attack);
         Console.WriteLine("Мана: " + mana);
+        Console.WriteLine("Боевой рейтинг: " + combatRating);
     }
 }
