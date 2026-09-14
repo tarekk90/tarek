@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyFirstSApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+774cf8623de78148876c2a552829fc0b06961b59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbcc1f35796b27dcc5f4abbf52437bef768e3801")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyFirstSApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyFirstSApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
