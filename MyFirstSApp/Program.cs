@@ -20,6 +20,17 @@ class Program
         Console.Write("Введите возраст: ");
         int age = Convert.ToInt32(Console.ReadLine());
 
+        // Задание 4: Добавляем характеристики
+        Console.Write("Введите силу: ");
+        int strength = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Введите ловкость: ");
+        int agility = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Введите интеллект: ");
+        int intellect = Convert.ToInt32(Console.ReadLine());
+
+        // Вывод информации о персонаже
         Console.WriteLine("----------------------------------------");
         Console.WriteLine("          СОЗДАННЫЙ ПЕРСОНАЖ            ");
         Console.WriteLine("----------------------------------------");
@@ -27,5 +38,8 @@ class Program
         Console.WriteLine("Раса: " + race);
         Console.WriteLine("Класс: " + charClass);
         Console.WriteLine("Возраст: " + age);
+        Console.WriteLine("Сила: " + strength);
+        Console.WriteLine("Ловкость: " + agility);
+        Console.WriteLine("Интеллект: " + intellect);
     }
 }
