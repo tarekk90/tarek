@@ -38,6 +38,11 @@ class Program
         // Задание 7: Дополнительная характеристика
         int combatRating = strength * 2 + agility * 2 + intellect;
 
+        // Задание 8: Самостоятельное расширение (2-3 новые характеристики)
+        int speed = agility * 2;
+        int armor = strength + 10;
+        int endurance = strength + agility;
+
         // Вывод информации о персонаже
         Console.WriteLine("----------------------------------------");
         Console.WriteLine("          СОЗДАННЫЙ ПЕРСОНАЖ            ");
@@ -55,5 +60,9 @@ class Program
         Console.WriteLine("Атака: " + attack);
         Console.WriteLine("Мана: " + mana);
         Console.WriteLine("Боевой рейтинг: " + combatRating);
+        Console.WriteLine("----------------------------------------");
+        Console.WriteLine("Скорость: " + speed);
+        Console.WriteLine("Броня: " + armor);
+        Console.WriteLine("Выносливость: " + endurance);
     }
 }
