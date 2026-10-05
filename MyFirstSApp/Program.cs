@@ -19,3 +19,22 @@ else
 {
     Console.WriteLine("Состояние персонажа: критическое");
 }
+// Задание 2: Проверка входных данных
+Console.Write("Введите класс (1 - Воин, 2 - Маг, 3 - Разбойник): ");
+int classChoice = Convert.ToInt32(Console.ReadLine());
+
+switch (classChoice)
+{
+    case 1:
+        Console.WriteLine("Воин");
+        break;
+    case 2:
+        Console.WriteLine("Маг");
+        break;
+    case 3:
+        Console.WriteLine("Разбойник");
+        break;
+    default:
+        Console.WriteLine("Ошибка: неизвестный класс.");
+        break;
+}
